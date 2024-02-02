@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Master from './website/Master';
 import Index from './website/maincomp/Index';
 import About from './website/maincomp/About';
+import Course from './website/maincomp/Course';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/'element={<Master Rcf={Index}/>}/>
         <Route path='/about' element={<Master Rcf={About}/>}/>
+        <Route path='/course' element={<Master Rcf={Course}/>}/>
       </Routes>
       </BrowserRouter>
     </div>
