@@ -23,7 +23,7 @@ const Header = () => {
       <div className="navbar-nav ms-auto p-4 p-lg-0">
         <a href="/" className="nav-item nav-link">Home</a>
         <a href="/about" className="nav-item nav-link active">About</a>
-        <a href="courses.html" className="nav-item nav-link">Courses</a>
+        <a href="/course" className="nav-item nav-link">Courses</a>
         <div className="nav-item dropdown">
           <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
           <div className="dropdown-menu fade-down m-0">
