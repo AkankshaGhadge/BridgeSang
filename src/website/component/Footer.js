@@ -17,9 +17,12 @@ const Footer = () => {
       </div>
       <div className="col-lg-3 col-md-6">
         <h4 className="text-white mb-3">Contact</h4>
-        <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />123 Street, New York, USA</p>
-        <p className="mb-2"><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
-        <p className="mb-2"><i className="fa fa-envelope me-3" />info@example.com</p>
+        <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />C/O HefShine Softwares Atharva Feryez Plaza, 5th Floor, Pune - Satara 
+Rd, opp. Shankar Maharaj Math, Dhankawadi, Pune, Maharashtra 
+411043
+</p>
+        <p className="mb-2"><i className="fa fa-phone-alt me-3" />8149042119 & 7262044661</p>
+        <p className="mb-2"><i className="fa fa-envelope me-3" />info@bridgesang.com</p>
         <div className="d-flex pt-2">
           <a className="btn btn-outline-light btn-social" href><i className="fab fa-twitter" /></a>
           <a className="btn btn-outline-light btn-social" href><i className="fab fa-facebook-f" /></a>
@@ -31,23 +34,24 @@ const Footer = () => {
         <h4 className="text-white mb-3">Gallery</h4>
         <div className="row g-2 pt-2">
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-1.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.50_4152ef43.jpg" alt />
           </div>
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-2.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.50_4152ef43.jpg" alt />
           </div>
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-3.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.54_84c35259.jpg" alt />
           </div>
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-2.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.51_ee0af5f7.jpg" alt />
           </div>
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-3.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.52_e72b86b8.jpg" alt />
           </div>
           <div className="col-4">
-            <img className="img-fluid bg-light p-1" src="img/course-1.jpg" alt />
+            <img className="img-fluid bg-light p-1" src="images/WhatsApp Image 2024-01-30 at 12.16.54_45f5b354.jpg" alt />
           </div>
+          
         </div>
       </div>
       <div className="col-lg-3 col-md-6">

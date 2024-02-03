@@ -1,12 +1,62 @@
 import React from 'react'
 import Home from './Home'
+import { Carousel } from 'react-bootstrap';
 
 const Index = () => {
+  const carouselItemStyle = {
+    width: '100%',
+    height: '600px',  // Adjust the height for larger screens
+    overflow: 'hidden',
+    marginBottom: '0', 
+  };
+
+  const carouselCaptionStyle = {
+    background: 'rgba(0, 0, 0, 0.5)',
+    color: 'white',
+    padding: '20px',
+    borderRadius: '5px',
+  };
   return (
     <>
+    <Carousel>
+      <Carousel.Item style={carouselItemStyle}>
+        <img
+          className="d-block w-100"
+          src="images/download.jpeg"
+          alt="First slide"
+        />
+        {/* <Carousel.Caption style={carouselCaptionStyle}>
+          <h3>First Slide</h3>
+          <p>Some description for the first slide.</p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      <Carousel.Item style={carouselItemStyle}>
+        <img
+          className="d-block w-100"
+          src="images/images (1).jpeg"
+          alt="Second slide"
+        />
+        {/* <Carousel.Caption style={carouselCaptionStyle}>
+          <h3>Second Slide</h3>
+          <p>Some description for the second slide.</p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      <Carousel.Item style={carouselItemStyle}>
+        <img
+          className="d-block w-100"
+          src="images/twice-the-brainpower-on-this-assignment-picture-id947895256.jpg"
+          alt="Second slide"
+        />
+        {/* <Carousel.Caption style={carouselCaptionStyle}>
+          <h3>Second Slide</h3>
+          <p>Some description for the second slide.</p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      {/* Add more Carousel.Item components for additional slides */}
+    </Carousel>
     {/* Service Start */}
     {/* Header Start */}
-  <div className="container-fluid bg-primary py-5 mb-5 page-header">
+  {/* <div className="container-fluid bg-primary py-5 mb-5 page-header">
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-lg-10 text-center">
@@ -21,7 +71,7 @@ const Index = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* Header End */}
 <div className="container-xxl py-5">
   <div className="container">
