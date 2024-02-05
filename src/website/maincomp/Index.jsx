@@ -22,7 +22,7 @@ const Index = () => {
       <Carousel.Item style={carouselItemStyle}>
         <img
           className="d-block w-100"
-          src="images/download.jpeg"
+          src="images/images (2).jpeg"
           alt="First slide"
         />
         {/* <Carousel.Caption style={carouselCaptionStyle}>
@@ -33,7 +33,7 @@ const Index = () => {
       <Carousel.Item style={carouselItemStyle}>
         <img
           className="d-block w-100"
-          src="images/images (1).jpeg"
+          src="images/a3dae00bc3985145bdc88db548f28265.jpg"
           alt="Second slide"
         />
         {/* <Carousel.Caption style={carouselCaptionStyle}>
@@ -164,54 +164,48 @@ bright future
     </div>
   </div>
 </div> */}
-  <div className="container-fluid py-5">
-      <div className="container">
-        <div className="row g-5">
-          <div className="col-lg-3 wow fadeInUp " data-wow-delay="0.1s">
-            <div className="position-relative h-100">
-              <img
-                className="img-fluid position-absolute w-100 h-100"
-                src="img/about.jpg"
-                alt=""
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-          </div>
-          <div className="col-lg-6 wow fadeInUp mt-7" data-wow-delay="0.3s">
-            <h6 className="section-title bg-white text-start text-primary pe-3">
-              About Us
-            </h6>
-            <h1 className="mb-4">Welcome to BridgeSang</h1>
-            <p className="mb-4">
-              BridgeSang Trainings and consultancy Pvt. Ltd. Started in 2021 and
-              going strong. Our Bound to help pharmacy students by giving them
-              100% knowledge about the Life Science industry, to improve their
-              skills & reach their goals, to personalize their experiences, to
-              get their dream job providing an innovative environment, and to
-              make a difference. We have been working in the field of skill
-              improvement from the last few years and have served many Small,
-              Medium & multinational companies for their fresh recruitments. We
-              care for the future of the candidates and try to give our
-              contribution in it when they are trying to make it a bright future.
-            </p>
-            <p className="mb-4">
-              {/* More content goes here */}
-            </p>
-            <div className="row gx-4 mb-4">
-              <div className="col-sm-6">
-                <p className="mb-0">
-                  <i className="fa fa-arrow-right text-primary me-2" />Skilled Instructors
-                </p>
-              </div>
-              {/* Add more similar columns as needed */}
-            </div>
-            <a className="btn btn-primary py-3 px-5 mt-2" href="#">
-              Read More
-            </a>
-          </div>
-        </div>
+ <div className="container">
+  <div className="row justify-content-center align-items-center g-5">
+    <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="position-relative h-100">
+        <img className="img-fluid w-100 h-100" src="img/about.jpg" alt="" style={{objectFit: 'cover'}} />
       </div>
     </div>
+    <div className="col-lg-6 text-center" data-wow-delay="0.3s">
+      <h6 className="section-title bg-white text-start text-primary pe-3">About Us</h6>
+      <h1 className="mb-4">Welcome to BridgeSang</h1>
+      <p className="mb-4">BridgeSang Trainings and consultancy Pvt. Ltd. Started in 2021 and going strong. Our Bound to help pharmacy
+students by giving them 100% knowledge about the Life Science industry, to improve their skills & reach their
+goals, to personalizing their experiences, to get their dream job providing an innovative environment, and to
+make a difference. We have been working in the field of skill improvement from the last few years and have
+served many Small, Medium & multinational companies for their fresh recruitments.</p>
+      <p className="mb-4">We care for the future of the candidates and try give our contribution in it when they are trying to make it a
+bright future</p>
+      <div className="row gy-2 gx-4 mb-4">
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>Skilled Instructors</p>
+        </div>
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>Online Classes</p>
+        </div>
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>International Certificate</p>
+        </div>
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>Skilled Instructors</p>
+        </div>
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>Online Classes</p>
+        </div>
+        <div className="col-sm-6">
+          <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"/>International Certificate</p>
+        </div>
+      </div>
+      <a className="btn btn-primary py-3 px-5 mt-2" href="#">Read More</a>
+    </div>
+  </div>
+</div>
+
 {/* About End */}
 {/* Categories Start */}
 <div className="container-xxl py-5 category">

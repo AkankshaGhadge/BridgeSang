@@ -14,7 +14,7 @@ const Header = () => {
   {/* Navbar Start */}
   <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-      <h2 className="m-0 text-primary"><i className="fa fa-book me-3" />BridgeSang</h2>
+      <h2 className="m-0 text-primary"> <img src='images/WhatsApp Image 2024-02-05 at 13.17.08_32fd1549.jpg' alt='BridgeSang' height={"70px"}/> </h2>
     </a>
     <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span className="navbar-toggler-icon" />
